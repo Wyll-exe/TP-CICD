@@ -1,0 +1,22 @@
+{
+  "name": "tp-docker",
+  "version": "0.0.3",
+  "description": "tp docker node express mongoose workflow",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "will",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.21.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "mongoose": "^8.12.2",
+    "nodemon": "^3.1.9"
+  }
+}
